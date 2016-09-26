@@ -1,23 +1,23 @@
 certificate version 0.1
-pusher 0x5CA7E64652290CF0 1470925389 -0500
-pushee git.gentoo.org:data/gentoo-news.git
-nonce 1470925389-54a48c376b5e8ac2e249
+pusher 0x9384FA6EF52D4BBA 1474928994 -0400
+pushee git+ssh://git.gentoo.org/data/gentoo-news.git
+nonce 1474928994-3e4c141663d10ef3e5fe
 
-b366ac9a735c51273e10e6568fcff8cb2fc0fece 88c8ca35ad6e0a145fa321f9f5c287193adc13d1 refs/heads/master
+88c8ca35ad6e0a145fa321f9f5c287193adc13d1 6481c7c90949d466b4635df2f8dda29024e7221e refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v2
 
-iQIcBAABCAAGBQJXrIpNAAoJEJtAqO3K+uczzmUQAJA8mXNhCWSPT2Chjcyidi+r
-WrA5qlcqJLRLR30SDn5rjGJ3tziVK+T7ozNTxPX8xX+ZctypvfhuekqCP0lNULIK
-ETZErj6Ia1UHdSOK1CRJjsclSoDz5UJYuMjiXThoqXRfp1K+1xsR9GnaxWWHeBHj
-3wmLJtIFNFbKwP50AzA+v3NvTvbntv1ZPMGbQLEP0lZXYphnOCZwFiGaxB4fy06a
-z7dtJlmZDq1MN+w4v4tzxBwFcIWF2I0O3PzLlkXt/Zg5y/9U7Yt5CsrbPRBf0yC3
-qOALlm596DWHketmR2XjJI5TlhQVfeiw4Hcy1uZkVbiYTdSesW/PK7yT/ww2lidH
-d7im6J01JyFnZmP+Qk/4vU4pA1b6Opo2f0MfRWrfen/RFuw9AvUFU1AhFUegj/Nq
-9q2MpegzYa6EWqJ4nYWoJuMPz14OkTbp/aU16mWYMXZ0n6wfiRt8xAWk2Ocz9eUg
-kkyyvnNummdiS/GFJgR547YWYzWfX7PuAvxd4SltftPe08mP9bgoI+cL93cTyL7P
-2I0BKxt0xt5q/v87k+rBBCok+z+Ete0qLJ5oM4D3rpdklWBfv1SCCuJYnC+nKP9Q
-y5PMiZzsXWQkU3JojMfgVsMGmF0F9ZxoiAEnEDnn+3VUwbNry6W/DaLHBsifD+dE
-PKFoM84Jc+e3GzChpoXg
-=YL3i
+iQIcBAABCAAGBQJX6aFiAAoJENe4dETWg5zIx/sP/RRM0JOwLdf0HUEe8tozKVUq
+MeptjVCGmbOsZFetugOL3oxGh2OEbrLdJDGRKgGRJVKORIWBczKTQcQoiHUU/CSE
+1XdXxSM4BuUQ1uVNHXqfq+/Q/QKS1pAYJUMjhmB/UgLBLT0GUzqQrle5qspfAWm1
+Nb3cZeDyQi7AbFz/tHp2GWqWJn09S27XCyHKKwVR8ilCItBHRlpIAJ4mP/9a2mpy
+4kxVdT6dzLSxVzS3B67msa+ucPK+vsY8O0FnEoj9+ZNfPFzz5G7TqsaJCsHHtV/L
+UJ6q6ckFukWtx1MgnelP+v+7yzo1lvalGlm+YxC1cuLCgtwwMdw5nnGasFRjl/se
++EPnJiRhpnQKmXvgGRXhtvZ114jM0ZuHPrhNV1KAdfl1yrTpXkqICF/uRv3HBFuj
+IBAMLJy/ziqE0AhardcHjecfDr5kixbyYq6aQLXbsW2O9j07/NJth/LfnhBJyD9/
+Vfwh3nvcXi/3Bh1Qt58bD5xCzkUzSQtqGSPDaS6dyIfTa7l6c8KxjorNY86PD11N
+4skT5CGBaAU9wLWl9yIsBCeo3FntduL7x5Hq0m0nqmDr0wH8KbdxnJYK9cZJCQm5
+OZ6RbpysUb7Jj4g7JtCIC9GefpEiaWNlJ9xEossn7RROezwwj0tB6Y1qdafxf1KX
+vIumVlx1tP9hSaGmr8zg
+=fxuC
 -----END PGP SIGNATURE-----
