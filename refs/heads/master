@@ -1,22 +1,13 @@
 certificate version 0.1
-pusher 0x5CA7E64652290CF0 1478284072 -0500
-pushee git.gentoo.org:data/gentoo-news.git
-nonce 1478284072-b045ed4751b50ed07d38
+pusher Mike Gilbert <floppym@gentoo.org> 1480088817 -0500
+pushee ssh://git.gentoo.org/data/gentoo-news.git
+nonce 1480088817-adbdb30782e6808fc51d
 
-5032c983f6b1619b8a8989ee34abafc5065ced8b 53b74c49b7b8f936d4100b8a623182f005b9f2ad refs/heads/master
+53b74c49b7b8f936d4100b8a623182f005b9f2ad aa727897c93e5f22f38f5698b273d895c974f332 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQIcBAABCAAGBQJYHNMoAAoJEJtAqO3K+uczwFQP/A08aQd9bgeFW49J10hIcWDQ
-jUy4lVtwTY6YzfY2M2R/KsMMAOA1LMcdLQ9YOKGvyZdzl5cET1Sf1fkBRXUcJ4tY
-oGH97vdepC4HXTjj4DB8srY1RfhESnHhhBezqcvQ/mLnOfVvhOMCt56LQv1fYWlc
-uijXiRB2pAKiwt7tubMJ/bkzzHaTmW0J/h77j4863u7TzMmdgLoEGv1AiFNJ+zlt
-NJw5ICdWOzbA4DQiUzdElZoRCk5aohNJsg9vjl8jDP8oXo1Pn9s8sLgfeTOzRnA0
-lp2i9AXXs6hYSJovkZYFm+keTwLUPc57EkLLASblKKxIwyd/pkw3+zFIigiTlaGl
-Wzy+ylLla/CdlABqVlnpg7loRRqCU/5HSw7XJgmkQl81RgnidQaPiQ0d4kDdtx04
-xUpWQfFT9/ULnQLHvalE9nxN3XsUPK6LqTXLVQ50MmSuHjoOKyf4TKrX9FiNmeGp
-x5YGoyxlnX1CeqjemxMcFw6Ly50FrGEyM+PN4gWzhdq6jSW4EIyMDnIgH+4ui1DE
-OgYRR0vMv+YRSn779jhII7RZTwseayLEMx3lmvtLSXbTxj7pipKp02B4Z1Ir+tq2
-2hWkVVqH6hbTGNkn8Gi8OwfATlVKZPfAqSCtiEyQ2Ebz7qJaIwk/6fo7wKMcuinv
-LENqwUO7cR6t/73GGwlh
-=kQXS
+iIkEABEIADEWIQSC6+o3VgHHi7vNKkVHG+cz7ykaPwUCWDhc8RMcZmxvcHB5bUBn
+ZW50b28ub3JnAAoJEEcb5zPvKRo/i6cA/RmtLegXzvBHTmwovArBVJ9HhJ8jp3Cr
+gzW+lfNwOAXgAP9NSeCIivzwpcc4xLzp/Wgp6Ibl9iyikgwf3uVZDBwNMw==
+=TDWb
 -----END PGP SIGNATURE-----
