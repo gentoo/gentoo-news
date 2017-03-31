@@ -1,12 +1,24 @@
 certificate version 0.1
-pusher Fabian Groffen <grobian@gentoo.org> 1488434842 +0100
-pushee git+ssh://git.gentoo.org/data/gentoo-news
-nonce 1488434842-81505895b1f7e9ad9b35
+pusher BABF1D5FF8C8110A! 1490992144 +0200
+pushee git.gentoo.org:data/gentoo-news.git
+nonce 1490992144-c92f4ea7b856f8a9bbde
 
-ac29f3bf36395040c52ab10cac3f5f46af5e13ab 639ef99487fe37c7d8d6a2957c80d6e9e9c0a03e refs/heads/master
+639ef99487fe37c7d8d6a2957c80d6e9e9c0a03e 3df15df9519122e6d59e44e0614427a1a3f4a42e refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iFoEABEKABoFAli3tpoTHGdyb2JpYW5AZ2VudG9vLm9yZwAKCRBfdfYHxcdOiSLS
-AJ46nYO2qk7qmpSn+9rZpF1pvIaL2wCgnh/lMOA7WqcbBbGEoHU2VSMockY=
-=RTYJ
+iQKTBAABCgB9FiEEXr8g+Zb7PCLMb8pAur8dX/jIEQoFAljevBBfFIAAAAAALgAo
+aXNzdWVyLWZwckBub3RhdGlvbnMub3BlbnBncC5maWZ0aGhvcnNlbWFuLm5ldDVF
+QkYyMEY5OTZGQjNDMjJDQzZGQ0E0MEJBQkYxRDVGRjhDODExMEEACgkQur8dX/jI
+EQrx7Q/+IgRd9Ugt6ehgxMR5JrXeTGiYHhejuXEZsFN80ucNpeTy6tkIelntJKuw
+/o3/JfptL3q8jeb4D5dmN1kvC+f2G6KtKKI4kkK6e9T0g1nx8wLCUsfbeSQpKhQZ
+xNWS/oDFfEsygFFqebPHNPLnpP7czkrI3S0PP9yHtjD/L017PQt4a3O6qYA1VCpk
+YdQYJ0UkMXxwGms01TSgjaSQFT+paPs5XfjFoduvSvZ7XGE9Iz/APqmmtFVssewG
+wbjhsk3AgoQmaFEUvvcSA4qd5xYI1kyycp0TtsgLC31IKy74Wrv4mtSrGSjf82oT
+Vxvlb5PGlg1mPclmU/86VHCn3nUEx8OvgNnJ5MlEqxmVRVuSZEGX3UkTf5GDtdJu
+4q8ZLwIGqrL3ktg4ElmEkk43DQFHmicucbLnnOhykGVHS+g0Eduh1FH/hpEwwDG3
+VS+NIh6bwiGzmwye34K9PRqP2qV8zG9TmnVVkIU2zxoYdEO3nyslObVSOHLtpgjS
+IO9w8OUPYOzTBOrTHG/JUN+9F/P3lnokGcOnrMFP9uY9n71k5cJXxP0STKQ+N/nT
+PO3MqmSL55eVPziG/n0u0WfIHk/EulPjR4h565JSyDNQD5HgVy8XZcqUDwhpiM+e
+u8ld4zzypOhBg774ve8eVrCFnqRsY0aWU7Qx4vUIDNl+vaR8+AY=
+=nOth
 -----END PGP SIGNATURE-----
