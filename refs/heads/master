@@ -1,13 +1,13 @@
 certificate version 0.1
-pusher Mike Gilbert <floppym@gentoo.org> 1500239780 -0400
+pusher Mike Gilbert <floppym@gentoo.org> 1501706366 -0400
 pushee ssh://git.gentoo.org/data/gentoo-news.git
-nonce 1500239780-c8b89343f4ce7a6aa2f6
+nonce 1501706366-bfea6ca9f843c68dfdb6
 
-bc53223fbd2ac57f353037c89a0f53686a0fcf08 9b6b364173118c9578abc75686f75effb4a4a967 refs/heads/master
+9b6b364173118c9578abc75686f75effb4a4a967 5694662c870cae1e26ff5274eda633155935c04b refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iIkEABEIADEWIQSC6+o3VgHHi7vNKkVHG+cz7ykaPwUCWWvXpBMcZmxvcHB5bUBn
-ZW50b28ub3JnAAoJEEcb5zPvKRo/dOMBALU4G8yg7GFhUtf+TkTuOhR3i6Rj9ejL
-QnYyOQ0HJNM3AQDRo35Jd6wvKBM8P1/vxnzOKGovOOInPwB+OHrXdCf9+A==
-=sSDd
+iIkEABEIADEWIQSC6+o3VgHHi7vNKkVHG+cz7ykaPwUCWYI4fhMcZmxvcHB5bUBn
+ZW50b28ub3JnAAoJEEcb5zPvKRo/bYwBAKuhpf6yKyuL/C9UuXi1646eQetSpX9z
+hCWWDuBpSz2+AP4l8dSSRHqMQ5rUr9vjY/935SD9bz0yZoK49YuLOM9Mew==
+=4SLq
 -----END PGP SIGNATURE-----
