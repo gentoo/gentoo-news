@@ -1,26 +1,13 @@
 certificate version 0.1
-pusher Brian Evans <grknight@gentoo.org> 1515443006 -0500
-pushee git+ssh://git.gentoo.org/data/gentoo-news.git
-nonce 1515443005-a05c634d2bf568394f4f
+pusher Mike Gilbert <floppym@gentoo.org> 1515516535 -0500
+pushee ssh://git.gentoo.org/data/gentoo-news.git
+nonce 1515516535-e6d2edc9d35e63e991b3
 
-69efe5cc9e0d9f7b943bdb2c32f717979236effa 074fef68d5e8cd8106542c8ea56cf5073fe48eef refs/heads/master
+074fef68d5e8cd8106542c8ea56cf5073fe48eef 49eb23dc2fabe8b786099e4f1c6d65b9c77d6486 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v2
 
-iQKoBAABCgCSFiEEZsLkTtkOMnWOfVXA0feB7/n0o7YFAlpT0z5fFIAAAAAALgAo
-aXNzdWVyLWZwckBub3RhdGlvbnMub3BlbnBncC5maWZ0aGhvcnNlbWFuLm5ldDY2
-QzJFNDRFRDkwRTMyNzU4RTdENTVDMEQxRjc4MUVGRjlGNEEzQjYUHGdya25pZ2h0
-QGdlbnRvby5vcmcACgkQ0feB7/n0o7aOghAAhBJz1foJfmOfttgf54hEOaMDdNyb
-NWLGZq8izHMlDTnbon78x/k13dgypJle5JINjtJnm3oozPG0sqzJLIiup5xOXz2k
-jpDOKU0+Wi5yrVOPALQsmXtaLLziG/dzA/o1Is+wf8Sc7raw5INBYp5iWKyRImEW
-Ssr9JFpmcSx5TX5W6vOyzE+QQakCQSFrsQW31LlIPBzTdqq9Vms1ai/in5a8UAV6
-5JewwEk4i1uVp/CryDpnOkxpzVKPOgluqe1yrQBL0OwGxzFebQt13ivbhiU+4z/c
-rRhpwx7GBQVoqoUU+UGBwWGdF9tZ3OASD/8on7ZWU6/yZ6Dhe7V3EOfCR91Xcu/w
-MGMqeUJiDlA/EJZPi9LEx7RHF/SUgulDviSf4Xi11uJGlnS7SINPw945hod+SQg5
-tP0dmTyPsCHR79iFoskoK+Zrn531J0pB7qmfpNwGAvsfZhEaaCeuftC8f3jNBHO+
-8Nf3aGjn3es+TiNAvIudgKzB0pmCFuU1/4qD5+xPRK0klUu8zZpvuhoTzYm1kyVL
-863Q34ghV+/xGYljhOqYfX+m0WZyAfLgJNHa/VkWYq8VkcE9YI99kGIbiBlL5agv
-m+9smaIbUQk8JTwuima5OxxzGOvL37dmSV3iYBwbVCIjdkA1y/vVxksc825yq1Cv
-HFWnkCoFSWw20OI=
-=vfmO
+iIkEABEIADEWIQSC6+o3VgHHi7vNKkVHG+cz7ykaPwUCWlTydxMcZmxvcHB5bUBn
+ZW50b28ub3JnAAoJEEcb5zPvKRo/j/kA/RL/1n5RP/AuEB05I9pxk0GWO5j8g1lU
+1D0V6BhGYZL6AP9KcI55U7XDokKdIaoUnIMSChP7NkeY9eBzKxR71FR2Xw==
+=3tow
 -----END PGP SIGNATURE-----
