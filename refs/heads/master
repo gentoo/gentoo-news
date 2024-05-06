@@ -1,15 +1,15 @@
 certificate version 0.1
-pusher Sam James <sam@gentoo.org> 1714980690 +0100
+pusher Sam James <sam@gentoo.org> 1715002152 +0100
 pushee git+ssh://git.gentoo.org/data/gentoo-news.git
-nonce 1714980690-ec762dbd55bb12bd7c5dfe0904f957776dc0a611
+nonce 1715002152-5429058b95607a365a144bbb45858165f190718e
 
-ff5cceaf5f2c64ad48396dd68be82e6100d3850a 8eb7599940bf2bfa05311e856726fc78293ab6b5 refs/heads/master
+8eb7599940bf2bfa05311e856726fc78293ab6b5 6e72ffeb1947d59cd4ee4f5a74829735c4564f6b refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iOUEABYKAI0WIQQlpruI3Zt2TGtVQcJzhAn1IN+RkAUCZjiHU18UgAAAAAAuAChp
+iOUEABYKAI0WIQQlpruI3Zt2TGtVQcJzhAn1IN+RkAUCZjjbKF8UgAAAAAAuAChp
 c3N1ZXItZnByQG5vdGF0aW9ucy5vcGVucGdwLmZpZnRoaG9yc2VtYW4ubmV0MjVB
 NkJCODhERDlCNzY0QzZCNTU0MUMyNzM4NDA5RjUyMERGOTE5MA8cc2FtQGdlbnRv
-by5vcmcACgkQc4QJ9SDfkZCjRQD8DAqh31iQ2dcoUw4t7Vxh3K3aHeJKxoDqomsC
-nyAvbdABAOzBICXK93cRhg7oeggoyhs2D9AgHOIGe6atA/5162wM
-=cE4G
+by5vcmcACgkQc4QJ9SDfkZBxtQEAzE1XEwsooc7YHrJZVumb0ahuuLYu+J7Blvq+
+uUbOmwYBAIgEykfDA+LJw/isqM2E84+SYV+uY+oFRvirPwaY+OEB
+=4zCJ
 -----END PGP SIGNATURE-----
