@@ -7,7 +7,7 @@ News-Item-Format: 2.0
 A new app-alternatives/coreutils ebuild is available, giving the
 choice between sys-apps/coreutils and sys-apps/uutils-coreutils as the
 main coreutils (mkdir, ls, etc) implementation. The default will
-remain the gnu implementation for the foreseeale future.
+remain the gnu implementation for the foreseeable future.
 
 The update should be transparent to most users, read on for further
 details.
@@ -34,7 +34,7 @@ with a prefix (`g` for gnu, and `uu-` for uutils), while
 app-alternatives installs symlinks with standard names. Portage
 preserves some critical binaries, which will trigger a harmless file
 collision warning (assuming the default `protect-owned` portage
-feature is enabled) when app-alternatives/coreutils is intalled for
+feature is enabled) when app-alternatives/coreutils is installed for
 the first time.
 
 To reduce the window during which some utils will not be available at
