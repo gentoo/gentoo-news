@@ -1,0 +1,80 @@
+Title: Introduction of app-alternatives/coreutils
+Author: Vincent de Phily <moltonel@gmail.com>
+Posted: 2026-03-01
+Revision: 1
+News-Item-Format: 2.0
+
+A new app-alternatives/coreutils ebuild is available, giving the
+choice between sys-apps/coreutils and sys-apps/uutils-coreutils as the
+main coreutils (mkdir, ls, etc) implementation. The default will
+remain the gnu implementation for the foreseeale future.
+
+The update should be transparent to most users, read on for further
+details.
+
+## Choices
+
+If uutils-coreutils is available for your arch and profile, you
+can select it by setting `app-alternatives/coreutils -gnu uutils` in
+your packages.use.
+
+If you want to postpone or revert the transition, mask the
+corresponding ebuild versions:
+
+```
+>=sys-apps/coreutils-9.10-r1
+>=sys-apps/uutils-coreutils-0.6.0-r1
+app-alternatives/coreutils
+```
+
+## Preparation and troubleshooting
+
+The new version of both sys-app coreutils ebuilds install their files
+with a prefix (`g` for gnu, and `uu-` for uutils), while
+app-alternatives installs symlinks with standard names. Portage
+preserves some critical binaries, which will trigger a harmless file
+collision warning (assuming the default `protect-owned` portage
+feature is enabled) when app-alternatives/coreutils is intalled for
+the first time.
+
+To reduce the window during which some utils will not be available at
+the standard location, make sure that app-alternatives/coreutils is
+merged straight after the new sys-apps/coreutils. You might want to
+only update the gnu coreutils, and to try system-wide uutils later.
+
+In the unlikely event of an incomplete update, keep in mind you can
+still use the prefixed names. If you somehow need to manually fix the
+symlinks, use the script below and consider reporting the issue:
+
+```
+# Base utils that portage should have preserved
+export CB="[ basename cat chgrp chmod chown cp env head install ln mkdir
+           mkfifo mktemp pwd readlink rm sort stat tail test tr uname"
+# Utils that may or may not be installed depending on USE
+export CU="chcon hostname kill pinky runcon users who"
+# Other utils
+export CO="arch b2sum base32 base64 basenc chroot cksum comm csplit
+           cut date dd df dir dircolors dirname du echo expand expr
+           factor false fmt fold hostid id join link logname ls mknod
+           mv nice nl nohup nproc numfmt od paste pathchk pr printenv
+           printf ptx realpath rmdir seq shred sha1sum sha224sum
+           sha256sum sha384sum sha512sum shuf sleep split stdbuf stty
+           sum sync tac tee timeout touch true truncate tsort tty
+           unexpand uniq unlink vdir wc whoami yes"
+for t in $CO; do
+  if [[ -e /usr/bin/g$t ]] && [[ ! -e /usr/bin/$t ]]; then
+    gln -sf g$t /usr/bin/$t
+  fi
+done
+```
+
+The current implementation of app-alternatives/coreutils does not
+switch shell completions, so `cp` uses gnu completions, `uu-cp` uses
+uutils completions, and `gcp` does not complete. This will be
+addressed progressively, in collaboration with upstreams.
+
+## Further reading
+
+[0] https://wiki.gentoo.org/wiki/Project:Base/Alternatives
+[1] https://www.gentoo.org/support/news-items/2022-12-27-alternatives-introduction.html
+[2] https://bugs.gentoo.org/961068
