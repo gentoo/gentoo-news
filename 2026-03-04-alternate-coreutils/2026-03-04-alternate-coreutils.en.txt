@@ -1,6 +1,6 @@
 Title: Introduction of app-alternatives/coreutils
 Author: Vincent de Phily <moltonel@gmail.com>
-Posted: 2026-03-01
+Posted: 2026-03-04
 Revision: 1
 News-Item-Format: 2.0
 
