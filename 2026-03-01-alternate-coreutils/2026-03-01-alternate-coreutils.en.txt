@@ -45,28 +45,26 @@ running `USE="gnu -uutils" emerge -v1 app-alternatives/coreutils`
 before updating the rest of the system.
 
 In the unlikely event of an incomplete update, keep in mind you can
-still use the prefixed names. If you somehow need to manually fix the
-symlinks, use the script below and consider reporting the issue:
+still use the prefixed names. If you somehow need to manually fix some
+symlinks, use the command below and consider reporting the issue:
 
-```
-# Base utils that portage should have preserved
-export CB="[ basename cat chgrp chmod chown cp env head install ln mkdir
+```bash
+# Critical utils that portage should have preserved
+export U1="[ basename cat chgrp chmod chown cp env head install ln mkdir
            mkfifo mktemp pwd readlink rm sort stat tail test tr uname"
-# Utils that may or may not be installed depending on USE
-export CU="chcon hostname kill pinky runcon users who"
-# Other utils
-export CO="arch b2sum base32 base64 basenc chroot cksum comm csplit
-           cut date dd df dir dircolors dirname du echo expand expr
-           factor false fmt fold hostid id join link logname ls mknod
-           mv nice nl nohup nproc numfmt od paste pathchk pr printenv
-           printf ptx realpath rmdir seq shred sha1sum sha224sum
-           sha256sum sha384sum sha512sum shuf sleep split stdbuf stty
-           sum sync tac tee timeout touch true truncate tsort tty
-           unexpand uniq unlink vdir wc whoami yes"
-for t in $CO; do
-  if [[ -e /usr/bin/g$t ]] && [[ ! -e /usr/bin/$t ]]; then
-    gln -sf g$t /usr/bin/$t
-  fi
+# Utils that might be missing until app-alternative installs
+export U2="arch b2sum base32 base64 basenc chcon chroot cksum comm
+           csplit cut date dd df dir dircolors dirname du echo expand
+           expr factor false fmt fold hostid hostname id join kill
+           link logname ls mknod mv nice nl nohup nproc numfmt od
+           paste pathchk pinky pr printenv printf ptx realpath rmdir
+           runcon seq shred sha1sum sha224sum sha256sum sha384sum
+           sha512sum shuf sleep split stdbuf stty sum sync tac tee
+           timeout touch true truncate tsort tty unexpand uniq unlink
+           users vdir wc who whoami yes"
+for t in $U2; do
+  gtest -e /usr/bin/g$t -a ! -e /usr/bin/$t && gln -sf g$t /usr/bin/$t
+  gtest -e /bin/g$t -a ! -e /bin/$t && gln -sf g$t /bin/$t
 done
 ```
 
