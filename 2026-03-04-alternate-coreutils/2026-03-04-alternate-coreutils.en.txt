@@ -50,18 +50,17 @@ symlinks, use the command below and consider reporting the issue:
 
 ```bash
 # Critical utils that portage should have preserved
-export U1="[ basename cat chgrp chmod chown cp env head install ln mkdir
-           mkfifo mktemp pwd readlink rm sort stat tail test tr uname"
+export U1="[ arch basename cat chgrp chmod chown cp date dirname echo env expr
+           false head hostname id install ln ls mkdir mkfifo mktemp mv printf
+           pwd readlink rm rmdir sleep sort stat tail test touch tr true uname
+           uniq whoami"
 # Utils that might be missing until app-alternative installs
-export U2="arch b2sum base32 base64 basenc chcon chroot cksum comm
-           csplit cut date dd df dir dircolors dirname du echo expand
-           expr factor false fmt fold hostid hostname id join kill
-           link logname ls mknod mv nice nl nohup nproc numfmt od
-           paste pathchk pinky pr printenv printf ptx realpath rmdir
-           runcon seq shred sha1sum sha224sum sha256sum sha384sum
-           sha512sum shuf sleep split stdbuf stty sum sync tac tee
-           timeout touch true truncate tsort tty unexpand uniq unlink
-           users vdir wc who whoami yes"
+export U2="b2sum base32 base64 basenc chcon chroot cksum comm csplit cut dd
+           df dir dircolors du expand factor fmt fold hostid join kill link
+           logname mknod nice nl nohup nproc numfmt od paste pathchk pinky pr
+           printenv ptx realpath runcon seq shred sha1sum sha224sum sha256sum
+           sha384sum sha512sum shuf split stdbuf stty sum sync tac tee timeout
+           truncate tsort tty unexpand unlink users vdir wc who yes"
 for t in $U2; do
   gtest -e /usr/bin/g$t -a ! -e /usr/bin/$t && gln -sf g$t /usr/bin/$t
   gtest -e /bin/g$t -a ! -e /bin/$t && gln -sf g$t /bin/$t
