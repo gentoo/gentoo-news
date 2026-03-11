@@ -40,9 +40,9 @@ installed for the first time.
 
 To reduce the window during which some utils will not be available at
 the standard location, make sure that app-alternatives/coreutils is
-merged straight after the new sys-apps/coreutils, for example by
-running `USE="gnu -uutils" emerge -v1 app-alternatives/coreutils`
-before updating the rest of the system.
+merged straight after the new sys-apps/coreutils, by running
+`USE="gnu -uutils" emerge -v1 app-alternatives/coreutils` before
+updating the rest of the system.
 
 In the unlikely event of an incomplete update, keep in mind you can
 still use the prefixed names. If you somehow need to manually fix some
