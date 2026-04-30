@@ -1,16 +1,16 @@
 certificate version 0.1
-pusher Sam James <sam@gentoo.org> 1777228424 +0100
-pushee git+ssh://git.gentoo.org/data/gentoo-news.git
-nonce 1777228424-10b6fa687d1204a51d2afe904b43ae33ff7807a4
+pusher Eli Schwartz <eschwartz@gentoo.org> 1777511115 -0400
+pushee git.gentoo.org:data/gentoo-news.git
+nonce 1777511114-08372be7fdb55ce6dd0af120528203ef4b95a604
 
-ea2fd79464b0b7f32681071232f1442baf711b32 841acfa1f5709b242ce24d1ac88293bae9e9227b refs/heads/master
+841acfa1f5709b242ce24d1ac88293bae9e9227b 8124f0830ecf587a80eea3e9307cafe989dc58a5 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQEBBAAWCgCpFiEEJaa7iN2bdkxrVUHCc4QJ9SDfkZAFAmnuWogbFIAAAAAABAAO
+iQEHBAAWCgCvFiEE5xTZ5itEz2R515t6hKfRK3ANL1cFAmnyqssbFIAAAAAABAAO
 bWFudTIsMi41KzEuMTIsMiwyXxSAAAAAAC4AKGlzc3Vlci1mcHJAbm90YXRpb25z
-Lm9wZW5wZ3AuZmlmdGhob3JzZW1hbi5uZXQyNUE2QkI4OEREOUI3NjRDNkI1NTQx
-QzI3Mzg0MDlGNTIwREY5MTkwDxxzYW1AZ2VudG9vLm9yZwAKCRBzhAn1IN+RkDvP
-AQCXMR+wG8VXbN68AMGwatZi2AkwqfToNtaF7z/T+f3GbAD/Vl6qKXhvwGJlcK1E
-if4945DthvVtxlkt9rSOkyk9eAE=
-=JF9X
+Lm9wZW5wZ3AuZmlmdGhob3JzZW1hbi5uZXRFNzE0RDlFNjJCNDRDRjY0NzlENzlC
+N0E4NEE3RDEyQjcwMEQyRjU3FRxlc2Nod2FydHpAZ2VudG9vLm9yZwAKCRCEp9Er
+cA0vV++vAP4s0kIGBCHumOd8bfIleVoqeglFR6e+JWfWsZElLaPsKwD/Wq/5Gf83
+TlWPZD0PtgU5twDgzlMYAPuBqoqh0gnlYwg=
+=11H9
 -----END PGP SIGNATURE-----
